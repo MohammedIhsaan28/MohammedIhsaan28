@@ -16,7 +16,7 @@
 
 <br/><br/>
 
-### `curious mind` · `builder by practice` · `work in progress`
+### *`curious mind` · `builder by practice` · `work in progress`*
 
 *I like solving problems, exploring new tools, and turning ideas into software.*  
 *Still learning. Still shipping. Still finding better ways to do things.*
@@ -34,53 +34,49 @@
 
 ## `$ whoami`
 
-- 🔭 **Building:** full-stack apps and AI-powered experiments.
-- 🌱 **Learning:** DSA, system design, and how to write software that is easier to maintain.
-- 🧠 **Interested in:** practical AI, developer tools, and solving problems that are worth solving.
-- 🤝 **Open to:** thoughtful collaboration, open-source contributions, and hackathon projects.
-- ⚡ **Reality check:** I know enough to see how much I still have to learn.
+- *🔭 **Building:** full-stack apps and AI-powered experiments.*
+- *🌱 **Learning:** DSA, system design, and how to write software that is easier to maintain.*
+- *🧠 **Interested in:** practical AI, developer tools, and solving problems that are worth solving.*
+- *🤝 **Open to:** thoughtful collaboration, open-source contributions, and hackathon projects.*
+- *⚡ **Reality check:** I know enough to see how much I still have to learn.*
 
 ## 🚀 Featured projects
 
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td width="50%" valign="top" style="border-radius: 2px;">
       <a href="https://github.com/MohammedIhsaan28/Lunar-AI">
         <img src="https://img.shields.io/badge/LUNAR%20AI-AI%20CHAT%20WORKSPACE-7C3AED?style=for-the-badge&labelColor=161B22&logo=openai&logoColor=white" alt="Lunar AI" />
       </a>
-      <p><strong>An AI chat experience built for real use.</strong></p>
-      <p>A full-stack chatbot platform connecting a modern web interface with Gemini-powered responses, authentication, and persistent data.</p>
-      <p><sub>Next.js · Gemini API · MongoDB · Clerk · Tailwind CSS</sub></p>
-      <a href="https://github.com/MohammedIhsaan28/Lunar-AI">Explore repository ↗</a>
+      <p><em>An AI chat experience built for real use.</em></p>
+      <p><em>A full-stack chatbot platform connecting a modern web interface with Gemini-powered responses, authentication, and persistent data.</em></p>
+      <p><em><sub>Next.js · Gemini API · MongoDB · Clerk · Tailwind CSS</sub></em></p>
     </td>
-    <td width="50%" valign="top">
+    <td width="50%" valign="top" style="border-radius: 2px;">
       <a href="https://github.com/MohammedIhsaan28/SummariZ">
         <img src="https://img.shields.io/badge/SUMMARIZ-DOCUMENTS%20MADE%20CLEAR-0A7EA4?style=for-the-badge&labelColor=161B22&logo=readthedocs&logoColor=white" alt="SummariZ" />
       </a>
-      <p><strong>Less scrolling. More understanding.</strong></p>
-      <p>An AI-powered PDF summarization project exploring document upload, language-model workflows, and a smoother path from long documents to useful takeaways.</p>
-      <p><sub>Next.js · TypeScript · LangChain · PostgreSQL</sub></p>
-      <a href="https://github.com/MohammedIhsaan28/SummariZ">Explore repository ↗</a>
+      <p><em>Less scrolling. More understanding.</em></p>
+      <p><em>An AI-powered PDF summarization project exploring document upload, language-model workflows, and a smoother path from long documents to useful takeaways.</em></p>
+      <p><em><sub>Next.js · TypeScript · LangChain · PostgreSQL</sub></em></p>
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
+    <td width="50%" valign="top" style="border-radius: 2px;">
       <a href="https://github.com/MohammedIhsaan28/Chess-StockFish">
         <img src="https://img.shields.io/badge/CHESS%20GAME%20MASTER-ENGINE%20MEETS%20PLAY-238636?style=for-the-badge&labelColor=161B22&logo=lichess&logoColor=white" alt="Chess Game Master" />
       </a>
-      <p><strong>A chessboard with a serious opponent.</strong></p>
-      <p>A browser-based chess project built around the Stockfish engine, with a focus on interactive play and game functionality.</p>
-      <p><sub>Angular · TypeScript · Stockfish · WebAssembly</sub></p>
-      <a href="https://github.com/MohammedIhsaan28/Chess-StockFish">Explore repository ↗</a>
+      <p><em>A chessboard with a serious opponent.</em></p>
+      <p><em>A browser-based chess project built around the Stockfish engine, with a focus on interactive play and game functionality.</em></p>
+      <p><em><sub>Angular · TypeScript · Stockfish · WebAssembly</sub></em></p>
     </td>
-    <td width="50%" valign="top">
+    <td width="50%" valign="top" style="border-radius: 2px;">
       <a href="https://github.com/MohammedIhsaan28/VoxCleanse">
         <img src="https://img.shields.io/badge/VOXCLEANSE-CLEANER%20AUDIO%2C%20CLEARER%20WORDS-EA580C?style=for-the-badge&labelColor=161B22&logo=audacity&logoColor=white" alt="VoxCleanse" />
       </a>
-      <p><strong>From noisy audio to readable text.</strong></p>
-      <p>A speech-processing pipeline combining audio denoising and automatic transcription, with an API for handling audio files and streaming workflows.</p>
-      <p><sub>Python · FastAPI · Whisper · DeepFilterNet</sub></p>
-      <a href="https://github.com/MohammedIhsaan28/VoxCleanse">Explore repository ↗</a>
+      <p><em>From noisy audio to readable text.</em></p>
+      <p><em>A speech-processing pipeline combining audio denoising and automatic transcription, with an API for handling audio files and streaming workflows.</em></p>
+      <p><em><sub>Python · FastAPI · Whisper · DeepFilterNet</sub></em></p>
     </td>
   </tr>
 </table>
