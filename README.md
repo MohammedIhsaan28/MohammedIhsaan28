@@ -132,8 +132,8 @@
 
 <br/>
 
-<a href="https://raw.githubusercontent.com/MohammedIhsaan28/MohammedIhsaan28/activity-assets/activity-30d.svg">30 days</a> ·
-<a href="https://raw.githubusercontent.com/MohammedIhsaan28/MohammedIhsaan28/activity-assets/activity-90d.svg">90 days</a> ·
+<a href="https://raw.githubusercontent.com/MohammedIhsaan28/MohammedIhsaan28/activity-assets/activity-30d.svg">30 days</a> -
+<a href="https://raw.githubusercontent.com/MohammedIhsaan28/MohammedIhsaan28/activity-assets/activity-90d.svg">90 days</a> -
 <a href="https://raw.githubusercontent.com/MohammedIhsaan28/MohammedIhsaan28/activity-assets/activity-365d.svg">365 days</a>
 
 </div>
