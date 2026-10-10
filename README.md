@@ -44,7 +44,7 @@
 
 <table>
   <tr>
-    <td width="50%" valign="top" style="border-radius: 2px;">
+    <td width="50%" valign="top" style="border-radius: 10px;">
       <a href="https://github.com/MohammedIhsaan28/Lunar-AI">
         <img src="https://img.shields.io/badge/LUNAR%20AI-AI%20CHAT%20WORKSPACE-7C3AED?style=for-the-badge&labelColor=161B22&logo=openai&logoColor=white" alt="Lunar AI" />
       </a>
