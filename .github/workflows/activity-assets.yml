@@ -1,0 +1,51 @@
+name: Update activity chart
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/activity-chart.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  chart:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Generate contribution charts
+        uses: dturovskiy/deus-commit-chart@v1
+        with:
+          username: ${{ github.repository_owner }}
+          token: ${{ secrets.DEUS_COMMIT_CHART_TOKEN || github.token }}
+          default-days: "30"
+          ranges: "30,90,365"
+          layout: spacious
+          output-dir: activity-dist
+
+      - name: Publish generated charts
+        env:
+          TARGET_BRANCH: activity-assets
+        run: |
+          set -euo pipefail
+          temp_dir="$(mktemp -d)"
+          cp -a activity-dist/. "$temp_dir/"
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git switch --orphan "$TARGET_BRANCH"
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+          cp -a "$temp_dir"/. .
+          git add -A
+          git commit -m "chore: refresh activity charts"
+          git push --force origin "$TARGET_BRANCH"
