@@ -18,8 +18,8 @@
 
 ### `curious mind` · `builder by practice` · `work in progress`
 
-I like solving problems, exploring new tools, and turning ideas into software.  
-Still learning. Still shipping. Still finding better ways to do things.
+*I like solving problems, exploring new tools, and turning ideas into software.*  
+*Still learning. Still shipping. Still finding better ways to do things.*
 
 <br/>
 
